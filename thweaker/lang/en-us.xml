@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lang>
+	<this>English (United States)</this>
+	<tab>
+		<settings>Settings</settings>
+	</tab>
+	<settings>
+		<language>Language</language>
+		<thtkToolchainPath>THTK Toolchain Path</thtkToolchainPath>
+		<targetGameVersion>Target Game Version</targetGameVersion>
+	</settings>
+</lang>

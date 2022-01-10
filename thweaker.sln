@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thweaker", "thweaker\thweaker.csproj", "{BCCF730A-8A90-4A3E-A5CD-19C3D05E05FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCCF730A-8A90-4A3E-A5CD-19C3D05E05FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCF730A-8A90-4A3E-A5CD-19C3D05E05FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCF730A-8A90-4A3E-A5CD-19C3D05E05FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCF730A-8A90-4A3E-A5CD-19C3D05E05FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87FF65AD-4D5E-424F-9717-4F9ACEC39279}
+	EndGlobalSection
+EndGlobal

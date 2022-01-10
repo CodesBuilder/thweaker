@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lang>
+	<this>简体中文</this>
+	<tab>
+		<settings>设置</settings>
+	</tab>
+	<settings>
+		<language>语言</language>
+		<thtkToolchainPath>THTK工具链路径</thtkToolchainPath>
+		<targetGameVersion>目标游戏版本</targetGameVersion>
+	</settings>
+</lang>
