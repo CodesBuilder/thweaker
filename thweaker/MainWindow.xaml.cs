@@ -38,6 +38,19 @@ namespace thweaker
             }
         }
 
+        public void ThdatComponentInit()
+        {
+            switch(App.appDataContext.ThdatMode)
+            {
+                case "C":
+                case "c":
+                    break;
+                default:
+                    MessageBox.Show(App.appDataContext.ConfigErrorText, "", MessageBoxButton.OK, MessageBoxImage.Error);
+                    break;
+            }
+        }
+
         public MainWindow()
         {
             InitializeComponent();
@@ -50,6 +63,11 @@ namespace thweaker
         {
             Lang.ActiveLang = (string)((ComboBoxItem)e.AddedItems[0]).Tag;
             App.appDataContext.UpdateLocalizedTexts();
+        }
+
+        private void thdatModeBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

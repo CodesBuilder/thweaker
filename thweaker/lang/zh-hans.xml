@@ -9,4 +9,21 @@
 		<thtkToolchainPath>THTK工具链路径</thtkToolchainPath>
 		<targetGameVersion>目标游戏版本</targetGameVersion>
 	</settings>
+	<general>
+		<mode>模式</mode>
+		<filePath>文件路径</filePath>
+    <error>错误</error>
+    <warning>警告</warning>
+    <info>信息</info>
+    <description>描述</description>
+    <modes>
+      <create>创建</create>
+      <list>列举</list>
+      <extract>提取</extract>
+    </modes>
+    <run>运行</run>
+	</general>
+  <errors>
+    <config>检测到配置错误</config>
+  </errors>
 </lang>

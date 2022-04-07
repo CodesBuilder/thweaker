@@ -9,4 +9,21 @@
 		<thtkToolchainPath>THTK Toolchain Path</thtkToolchainPath>
 		<targetGameVersion>Target Game Version</targetGameVersion>
 	</settings>
+	<general>
+		<mode>Mode</mode>
+		<filePath>File Path</filePath>
+    <error>Error</error>
+    <warning>Warning</warning>
+    <info>Information</info>
+    <description>Description</description>
+    <modes>
+      <create>Create</create>
+      <list>List</list>
+      <extract>Extract</extract>
+    </modes>
+    <run>Run</run>
+	</general>
+  <errors>
+    <config>Configuration error detected</config>
+  </errors>
 </lang>

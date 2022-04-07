@@ -37,6 +37,31 @@
             </TabItem>
             <TabItem Header="thdat">
                 <Grid Background="White">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" Content="{Binding Path=ModeText}" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <ComboBox Grid.Row="0" Grid.Column="1" Name="thdatModeBox"
+                              HorizontalAlignment="Right"
+                              VerticalAlignment="Center"
+                              SelectionChanged="thdatModeBox_SelectionChanged"
+                              Padding="4px">
+                        <ComboBoxItem Name="thdatModeCreate"  Content="{Binding Path=ModeCreateText}" />
+                        <ComboBoxItem Name="thdatModeList"  Content="{Binding Path=ModeListText}" />
+                        <ComboBoxItem Name="thdatModeExtract"  Content="{Binding Path=ModeExtractText}" />
+                    </ComboBox>
+
+                    <Label Grid.Row="1" Grid.Column="0" Content="{Binding Path=FilePathText}" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Path=ThdatFilePath}" VerticalAlignment="Center" Padding="4px"/>
+                    <Button Content="{Binding Path=RunText}" Grid.Row="2" Grid.Column="0" Margin="10,10" Padding="10" Grid.ColumnSpan="2"/>
                 </Grid>
             </TabItem>
             <TabItem Header="thanm">

@@ -26,6 +26,7 @@ namespace thweaker
         public static void Init()
         {
             Reload();
+            Lang.ActiveLang = Config.getItem("language", "en-us");
         }
 
         public static void Reload()
